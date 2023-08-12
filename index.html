@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itamar Henriques</title>
+    <link rel="shortcut icon" href="src/img/svg/logo-portifólio.svg" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/index.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div>
+                <a href="#"><img src="src/img/svg/logo-portifólio.svg" alt="Logo portifólio" class="logo"></a>
+            </div>
+            <div class="nav-list mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#tecnologias" class="nav-link">Tecnologias</a></li>
+                    <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="mobile-menu-icon">
+            <label class="hamburger">
+                <input type="checkbox" onclick="menuShow()">
+                <svg viewBox="0 0 32 32">
+                    <path class="line line-top-bottom"
+                        d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22">
+                    </path>
+                    <path class="line" d="M7 16 27 16"></path>
+                </svg>
+            </label>
+        </div>
+    </header>
+    <main>
+        <section class="home" id="home">
+            <div class="home-info">
+                <p class="pre-titulo">Seja bem-vindo, me chamo</p>
+                <h1>Itamar Henriques,</h1>
+                <h2>Um Desenvolvedor <em>Front-end.</em></h2>
+                <p class="sub-titulo">Codificando aplicações elegantes, objetivas e otimizadas.
+                </p>
+            </div>
+
+            <div class="three-shapes">
+                <span class="form1"></span>
+                <span class="form2"></span>
+                <span class="form3"></span>
+            </div>
+
+            <div class="scrolldown" style="--color: #333333">
+                <span class="chevrons">
+                    <span class="chevrondown"></span>
+                    <span class="chevrondown"></span>
+                </span>
+            </div>
+        </section>
+        <hr>
+        <section class="sobre" id="sobre">
+            <div class="balloon">
+                <div class="circle"><img src="src/img/png/Itamar.png" alt="Foto do  Itamar com efeito preto e branco"
+                        class="img-itamar"></div>
+                <div class="cir1"></div>
+                <div class="cir2"></div>
+                <div class="B1"></div>
+                <div class="B2"></div>
+                <div class="B3"></div>
+                <div class="B4"></div>
+                <div class="B5"></div>
+                <div class="B6"></div>
+            </div>
+            <div class="sobre-container">
+                <div class="sobre-info">
+                    <h3>Sobre mim</h3>
+                    <p>Minha paixão é a web, e estou constantemente em busca de aprimorar minhas habilidades, explorando
+                        novas tecnologias e técnicas. Utilizo o Google como fonte de conhecimento e o editor de código
+                        como meu caderno de anotações. Sou aberto a oportunidades que possam expandir meus
+                        conhecimentos. Me considero uma pessoa calma, competente, metódica e proativa, sempre em busca
+                        das melhores
+                        soluções para os problemas que enfrento profissionalmente.
+                    </p>
+
+                    <p>Meu lema no trabalho, assim como na minha vida, é "Transformar o impossível em algo óbvio". Se
+                        me derem um desafio digno, farei o possível para torná-lo realidade.</p>
+                </div>
+                <div class="sobre-curriculo">
+                    <h3>Currículo</h3>
+                    <a class="btn-down" target="_blank"
+                        href="https://drive.google.com/file/d/1JShPXb08i0zIOFLdxTnzZcVpI1FOAuk0/view?usp=sharing"
+                        download>Download</a>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="tecnologias" id="tecnologias">
+            <div class="tecnologias-info">
+                <h3>Skills e Determinação</h3>
+                <p>Acredito que compartilhar ideias e soluções sempre nos ajudam a evoluir, estou determinado a aprender
+                    mais e mais a cada dia que passa em minha jornada como Dev e futuramente ensinar e orientar aos
+                    iniciantes o que estou aprendendo atualmente.</p>
+            </div>
+            <div class="skills">
+                <p>HTML 5</p>
+                <p>CSS 3</p>
+                <p>JavaScript</p>
+                <p>GitHub</p>
+                <p>Figma</p>
+                <p>UI</p>
+                <p>Illustrator</p>
+                <p>Visual Studio Code</p>
+                <p>Photoshop</p>
+                <p>Netlify</p>
+            </div>
+        </section>
+        <hr>
+        <section class="projetos" id="projetos">
+            <h3>Desenvolvimentos e Projetos</h3>
+            <div class="base-cards">
+                <div class="base-cards-container">
+                    <div class="card">
+                        <div class="img-base">
+                            <img src="src/img/png/logo-i.png" alt="Foto da logo do site com o fundo cinza"
+                                class="drop-active">
+                            <div class="drop">
+                                <button type="button" class="overlay-button" id="showScreen">Ver mais</button>
+                            </div>
+                        </div>
+                        <p>Portifólio</p>
+                    </div>
+                    <div class="card card-soon-more">
+                        <span class="img-base"><img src="src/img/png/soon-more.png"
+                                alt="Imagem de uma xicara com a cor de fundo cinza" class="animated-img"></span>
+                        <p>Em breve, mais.</p>
+                    </div>
+                </div>
+            </div>
+            <article class="see-more-info-base" id="hidden">
+                <div class="see-more-info">
+                    <div class="swiper">
+                        <div class="swiper-container">
+                            <button class="prev control" aria-label="Prev img">&#10094;</button>
+                            <button class="next control" aria-label="Next img">&#10095;</button>
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="itemImg current-Item"
+                                src="src/img/png/slider-projects/portifólio/slide logo.png"
+                                alt="Imagem da Logo para o slide">
+                            <img class="itemImg " src="src/img/png/slider-projects/portifólio/Pc portifólio.png"
+                                alt="Imagem com o fundo azul e um Mac com a foto do site na tela">
+                            <img class="itemImg " src="src/img/png/slider-projects/portifólio/Smarphone portifólio.png"
+                                alt="Imagem com o fundo azul e Smartphone com a foto do site na tela">
+                        </div>
+                    </div>
+                    <h4>Portifolio - Itamar Henriques</h4>
+                    <hr>
+                    <span class="text-balons">
+                        <p>JavaScript</p>
+                        <p>HTML 5</p>
+                        <p>CSS 3</p>
+                        <p>Visual Studio Code</p>
+                        <p>UI</p>
+                        <p>Figma</p>
+                        <p>GitHub</p>
+                        <p>Netlify</p>
+                    </span>
+                    <span class="content-link">
+                        <a href="#">portifolioitamar.com.br</a>
+                        <img src="src/img/svg/share-outline.svg" class="share">
+                    </span>
+                    <button type="button" class="back" id="close">Fechar</button>
+
+                </div>
+
+            </article>
+        </section>
+        <hr>
+        <section class="contato" id="contato">
+            <h3>Contato</h3>
+            <p>Envie um e-mail para</p>
+            <div class="contat-email">
+                <a href="mailto:itamar.henriques.r@gmail.com?subject=Contato pelo portifólio">
+                    <h5>itamar.henriques.r@gmail.com</h5>
+                </a>
+            </div>
+            <hr>
+            <p>SIGA</p>
+            <div class="contat-links">
+                <a href="https://www.linkedin.com/in/itamar-henriques/" target="_blank" rel="noopener noreferrer"><img
+                        src="src/img/svg/logo-linkedin.svg" alt="Logo Linkedin"></a>
+
+                <a href="https://github.com/Itamar-Henriques" target="_blank" rel="noopener noreferrer"><img
+                        src="src/img/svg/logo-github.svg" alt="Logo GitHub"></a>
+
+                <a href="https://codepen.io/Itamar-Henriques-the-sans" target="_blank" rel="noopener noreferrer"><img
+                        src="src/img/svg/logo-codepen.svg" alt="Logo Codepen"></a>
+
+                <a href="https://www.instagram.com/itamar._.henriques/" target="_blank" rel="noopener noreferrer"><img
+                        src="src/img/svg/logo-instagram.svg" alt="Logo Instagram"></a>
+            </div>
+
+            <button class="BtnUp">
+                <svg height="1.2em" class="arrow" viewBox="0 0 512 512">
+                    <path
+                        d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z">
+                    </path>
+                </svg>
+                <p class="text">Back to Top</p>
+            </button>
+
+        </section>
+        <footer>
+            <p>@ site developed by Itamar Henriques · 2023</p>
+        </footer>
+    </main>
+
+    <script src="src/js/script.js"></script>
+
+</body>
+
+</html>
