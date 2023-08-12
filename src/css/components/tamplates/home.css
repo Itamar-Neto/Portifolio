@@ -1,0 +1,53 @@
+/* Three shapes */
+@import url(../layouts/three-shapes.css);
+/* Scrolldown */
+@import url(../layouts/scrolldown.css);
+
+.home,
+.home-info {
+    display: flex;
+}
+
+.home {
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    padding: 60px 0 120px;
+    margin-bottom: 25px;
+}
+
+.home-info {
+    flex-direction: column;
+    height: 300px;
+    width: 80%;
+    margin: 11rem 0 0 7rem;
+}
+
+.pre-titulo {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.sub-titulo {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 950px) {
+    .home {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 2rem 0;
+    }
+
+    .home-info {
+        text-align: center;
+        margin: 6rem 0 0;
+    }
+
+    .scrolldown {
+        display: block;
+    }
+}

@@ -1,0 +1,121 @@
+.contato,
+.contat-links,
+.contat-links a,
+.BtnUp,
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato {
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    padding: 110px 0;
+    gap: 20px;
+}
+
+.contat-email a {
+    width: 80%;
+    text-decoration: none;
+}
+
+.contat p {
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+.contat-links {
+    flex-direction: row;
+    gap: 40px;
+}
+
+.contat-links a {
+    width: 85px;
+    height: 85px;
+    list-style: none;
+    border-radius: 100px;
+    background-color: #c0c0c0;
+}
+
+.contat-links img {
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.contat-links img:hover {
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+/* Responsive */
+
+@media screen and (max-width: 640px) {
+    .contat-links {
+        gap: 10px;
+    }
+
+    .contat-links a {
+        width: 70px;
+        height: 70px;
+    }
+
+    .contat-links img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/*Voltar ao topo*/
+
+.BtnUp {
+    height: 45px;
+    width: 45px;
+    border: none;
+    border-radius: 50%;
+    background-color: #2e2e2e;
+    cursor: pointer;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+}
+
+.arrow path {
+    fill: #fff;
+}
+
+.text {
+    width: 100px;
+    font-size: 0.7em;
+    position: absolute;
+    bottom: -13px;
+    opacity: 0;
+    transition-duration: .7s;
+}
+
+.BtnUp:hover .text {
+    opacity: 1;
+    transition-duration: .7s;
+}
+
+.BtnUp:hover .arrow {
+    animation: slide-in-bottom .7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-in-bottom {
+    0% {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

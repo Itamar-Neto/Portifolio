@@ -1,0 +1,210 @@
+.balloon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18rem;
+    width: 18rem;
+    margin-top: 55px;
+    transform: rotate(-40deg);
+}
+
+.balloon div {
+    position: absolute;
+    border: 50px;
+    background-color: #333333;
+    background-image: radial-gradient(#242424 5px, transparent 0.5px);
+    background-size: 20px 20px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.img-itamar {
+    height: 16rem;
+    width: 16rem;
+    border-radius: 100%;
+    filter: grayscale(100);
+    transform: rotate(40deg);
+}
+
+.circle,
+.cir1 {
+    border-radius: 100%;
+}
+
+.circle {
+    height: 18rem;
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.cir1 {
+    height: 55px;
+    width: 55px;
+    animation-name: cir1;
+}
+
+@keyframes cir1 {
+    0% {
+        top: 0px;
+        right: -112px;
+    }
+
+    50% {
+        top: 0px;
+        right: -128px;
+    }
+
+    100% {
+        top: 0px;
+        right: -112px;
+    }
+
+}
+
+.cir2 {
+    height: 55px;
+    width: 75px;
+    border-radius: 100px;
+    animation-name: cir2;
+}
+
+@keyframes cir2 {
+    0% {
+        bottom: 0px;
+        left: -145px;
+    }
+
+    50% {
+        bottom: 0px;
+        left: -130px;
+    }
+
+    100% {
+        bottom: 0px;
+        left: -145px;
+    }
+
+}
+
+.B1,
+.B5 {
+    height: 58px;
+    width: 250px;
+    position: relative;
+}
+
+.B2,
+.B3,
+.B4,
+.B6 {
+    height: 25px;
+    width: 450px;
+    border-radius: 100px;
+}
+
+.B3,
+.B6 {
+    width: 100px;
+}
+
+.B1 {
+    top: 0px;
+    right: -50px;
+    border-radius: 200px 100px 100px 0;
+}
+
+.B2 {
+    animation-name: b2;
+}
+
+@keyframes b2 {
+    0% {
+        top: 85px;
+        right: -130px;
+    }
+
+    50% {
+        top: 85px;
+        right: -110px;
+    }
+
+    100% {
+        top: 85px;
+        right: -130px;
+    }
+}
+
+.B3 {
+    height: 20px;
+    animation-name: b3;
+}
+
+@keyframes b3 {
+    0% {
+        top: 150px;
+        right: -40px;
+    }
+
+    50% {
+        top: 150px;
+        right: -60px;
+    }
+
+    100% {
+        top: 150px;
+        right: -40px;
+    }
+
+}
+
+.B4 {
+    animation-name: b4;
+}
+
+@keyframes b4 {
+    0% {
+        bottom: 80px;
+        right: -80px;
+    }
+
+    50% {
+        bottom: 80px;
+        right: -60px;
+    }
+
+    100% {
+        bottom: 80px;
+        right: -80px;
+    }
+}
+
+.B5 {
+    bottom: 0px;
+    left: -50px;
+    border-radius: 100px 0px 200px 100px;
+}
+
+.B6 {
+    height: 35px;
+    animation-name: b6;
+}
+
+@keyframes b6 {
+    0% {
+        bottom: 130px;
+        left: -80px;
+    }
+
+    50% {
+        bottom: 130px;
+        left: -50px;
+    }
+
+    100% {
+        bottom: 130px;
+        left: -80px;
+    }
+}

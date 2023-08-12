@@ -1,0 +1,61 @@
+.tecnologias,
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tecnologias {
+    flex-direction: column;
+    padding: 180px 0 130px;
+    gap: 40px;
+}
+
+.tecnologias-info {
+    text-align: center;
+    width: 60%;
+}
+
+
+.skills {
+    height: auto;
+    width: 70%;
+    flex-flow: row wrap;
+    border-radius: 45px;
+    background-color: #333333;
+    padding: 60px;
+    gap: 10px;
+}
+
+.skills p {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    color: #b2b1b1;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #3D3D3D;
+    cursor: pointer;
+    padding: 0.4em 0.6em;
+    text-align: center;
+}
+
+.skills p:hover {
+    background-color: #5a5a5a;
+}
+
+
+
+@media screen and (max-width: 950px) {
+    .tecnologias {
+        padding: 100px 0;
+    }
+
+    .tecnologias-info p {
+        text-align: justify;
+    }
+
+    .skills {
+        padding: 30px;
+    }
+}

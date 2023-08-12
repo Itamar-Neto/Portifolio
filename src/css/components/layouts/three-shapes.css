@@ -1,0 +1,104 @@
+.three-shapes {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -7rem;
+    right: -13rem;
+    gap: 30px;
+    transform: rotate(-40deg);
+    z-index: -1;
+}
+
+.form1,
+.form2,
+.form3 {
+    border-radius: 300px;
+    background-size: 20px 20px;
+    background-color: #333333;
+    background-image: radial-gradient(#242424 5px, transparent 0.5px);
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+.form1 {
+    height: 3rem;
+    width: 50rem;
+    animation-name: form1;
+    animation-duration: 6.3s;
+}
+
+@keyframes form1 {
+    0% {
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        left: 100px;
+        top: 0px;
+    }
+
+    100% {
+        left: 200px;
+        top: 0px;
+    }
+}
+
+.form2 {
+    height: 3rem;
+    width: 50rem;
+    animation-name: form2;
+    animation-duration: 5s;
+}
+
+@keyframes form2 {
+    0% {
+        left: 90px;
+        top: 5px;
+    }
+
+    50% {
+        left: 150px;
+        top: 5px;
+    }
+
+    100% {
+        left: 90px;
+        top: 5px;
+    }
+}
+
+.form3 {
+    height: 20rem;
+    width: 50rem;
+    animation-name: form3;
+    animation-duration: 6.1s;
+
+}
+
+@keyframes form3 {
+    0% {
+        left: -100px;
+        top: 10px;
+    }
+
+    50% {
+        left: 50px;
+        top: 10px;
+    }
+
+    100% {
+        left: -100px;
+        top: 10px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .three-shapes {
+        display: none;
+    }
+}

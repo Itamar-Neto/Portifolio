@@ -1,0 +1,185 @@
+/*Responsive*/
+
+@media screen and (max-width: 950px) {
+    .balloon {
+        transform: rotate(0deg);
+        margin-top: 0;
+    }
+
+    .img-itamar {
+        transform: rotate(0deg);
+    }
+}
+
+@media screen and (max-width: 511px) {
+    .balloon {
+        margin-top: 60px;
+        transform: rotate(-40deg);
+    }
+
+    .img-itamar {
+        transform: rotate(40deg);
+    }
+}
+
+/*reduced balloon*/
+@media screen and (max-width: 590px) {
+    .balloon {
+        height: 15rem;
+        width: 15rem;
+    }
+
+    .img-itamar {
+        height: 13rem;
+        width: 13rem;
+    }
+
+    .circle {
+        height: 15rem;
+        width: 15rem;
+    }
+
+    .cir1 {
+        height: 55px;
+        width: 55px;
+    }
+
+    @keyframes cir1 {
+        0% {
+            top: 0px;
+            right: -109px;
+        }
+
+        50% {
+            top: 0px;
+            right: -120px;
+        }
+
+        100% {
+            top: 0px;
+            right: -109px;
+        }
+    }
+
+    .cir2 {
+        height: 52px;
+        width: 70px;
+    }
+
+    @keyframes cir2 {
+        0% {
+            bottom: 0px;
+            left: -123px;
+        }
+
+        50% {
+            bottom: 0px;
+            left: -133px;
+        }
+
+        100% {
+            bottom: 0px;
+            left: -123px;
+        }
+    }
+
+    .B1 {
+        height: 55px;
+        width: 220px;
+    }
+
+    .B2 {
+        height: 20px;
+        width: 400px;
+    }
+
+    @keyframes b2 {
+        0% {
+            top: 70px;
+            right: -130px;
+        }
+
+        50% {
+            top: 70px;
+            right: -110px;
+        }
+
+        100% {
+            top: 70px;
+            right: -130px;
+        }
+    }
+
+    .B3 {
+        height: 15px;
+        width: 100px;
+    }
+
+    @keyframes b3 {
+        0% {
+            top: 125px;
+            right: -40px;
+        }
+
+        50% {
+            top: 125px;
+            right: -60px;
+        }
+
+        100% {
+            top: 125px;
+            right: -40px;
+        }
+
+    }
+
+    .B4 {
+        height: 20px;
+        width: 390px;
+    }
+
+    @keyframes b4 {
+        0% {
+            bottom: 70px;
+            right: -80px;
+        }
+
+        50% {
+            bottom: 70px;
+            right: -60px;
+        }
+
+        100% {
+            bottom: 70px;
+            right: -80px;
+        }
+    }
+
+    .B5 {
+        height: 55px;
+        width: 220px;
+
+    }
+
+    .B6 {
+        height: 30px;
+        width: 100px;
+    }
+
+    @keyframes b6 {
+        0% {
+            bottom: 110px;
+            left: -80px;
+        }
+
+        50% {
+            bottom: 110px;
+            left: -50px;
+        }
+
+        100% {
+            bottom: 110px;
+            left: -80px;
+        }
+    }
+}

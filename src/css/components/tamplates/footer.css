@@ -1,0 +1,19 @@
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #2e2e2e;
+    padding: 20px;
+}
+
+footer p {
+    color: #e7e5e5;
+    cursor: default;
+    font-size: 1em;
+}
+
+@media screen and (max-width: 640px) {
+    footer p {
+        font-size: 0.7em;
+    }
+}

@@ -1,0 +1,112 @@
+/* Balloon image */
+@import url(../layouts/balloon-img.css);
+/* Balloon image responsive */
+@import url(../layouts/responsive/balloon-responsive.css);
+
+.sobre,
+.sobre-info,
+.sobre-curriculo,
+.btn-down {
+    display: flex;
+}
+
+.sobre {
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row nowrap;
+    width: 100%;
+    gap: 10px;
+    padding: 130px 40px 100px 100px;
+}
+
+.sobre-info {
+    flex-direction: column;
+    width: 640px;
+    margin: 25px 0 20px;
+}
+
+.sobre-info p {
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+.sobre-curriculo {
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+/* Bottom download */
+
+.btn-down {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 160px;
+    height: 52px;
+    color: #b8b7b7;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #30303080;
+    background: #3D3D3D;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.btn-down:hover {
+    background: #787878;
+    border: 1px solid rgba(170, 170, 170, 0.1);
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1220px) {
+    .sobre {
+        padding: 100px 40px;
+        gap: 80px;
+    }
+
+    .sobre-info {
+        width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    .sobre {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 100px;
+        gap: 40px;
+    }
+
+    .sobre-info {
+        width: 80vw;
+        margin: 10px;
+    }
+
+    .sobre-curriculo {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .sobre {
+        justify-content: center;
+        align-items: center;
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width: 511px) {
+    main {
+        overflow: hidden;
+    }
+
+    .sobre-info {
+        width: 80vw;
+        margin: 80px 0 0;
+    }
+}

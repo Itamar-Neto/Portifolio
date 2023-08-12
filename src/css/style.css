@@ -1,0 +1,103 @@
+@import url('https://fonts.cdnfonts.com/css/oak-sans');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oak Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    background-color: #343434;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #858586;
+    border-radius: 10px;
+
+}
+
+body {
+    background-color: #e7e5e5;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-size: 40px;
+    font-weight: 400px;
+    color: #2e2e2e;
+    cursor: context-menu;
+}
+
+h3 {
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 24px;
+    color: #52525b;
+    cursor: context-menu;
+}
+
+em {
+    font-weight: 500;
+}
+
+hr {
+    border: 1px solid #545454;
+    width: 60%;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 789px) {
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-size: 30px;
+    }
+
+    h5 {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-size: 25px;
+        font-weight: 300px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
