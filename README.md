@@ -14,5 +14,5 @@ Este projeto representa meu portfólio inicial, onde aplico os conhecimentos adq
 </div>
 
 ## Link 
-<a target="_blank" rel="noreferrer" href="portifolio-itamar-henriques.netlify.app"> portifolio-itamar-henriques.netlify.app </a> 
+<a target="_blank" rel="noreferrer" href="https://portifolio-itamar-henriques.netlify.app/"> portifolio-itamar-henriques.netlify.app </a> 
 <img width="20" height="20" src="https://www.gstatic.com/images/icons/material/system_gm/1x/launch_gm_grey_18dp.png" alt="link--v1"/>
