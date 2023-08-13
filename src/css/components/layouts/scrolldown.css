@@ -97,6 +97,6 @@
     /* Responsive */
     @media screen and (max-width: 400px) {
         .scrolldown {
-            margin-top: 20px;
+            margin-top: 40px;
         }
     }
