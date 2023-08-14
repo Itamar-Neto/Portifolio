@@ -20,6 +20,11 @@
 .contat-email a {
     width: 80%;
     text-decoration: none;
+    cursor: pointer;
+}
+
+.contat-email a h5 {
+    cursor: pointer;
 }
 
 .contat p {
